@@ -1,3 +1,3 @@
-package com.sitejagerksc.app
+package com.kscsitejager.app
 
 class MainActivity : TauriActivity()

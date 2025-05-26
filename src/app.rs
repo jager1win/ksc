@@ -25,6 +25,15 @@ pub fn App(initial_length: usize) -> impl IntoView {
     };
 
     view! {
+        <header>
+            <details><summary>About</summary>
+                <dl>
+                    <dt>Developer</dt><dd>Jager</dd>
+                    <dt>Lisence</dt><dd>MIT</dd>
+                    <dt>GitHub</dt><dd><a href="https://github.com/jager1win/ksc" target="_blank">github.com/jager1win/ksc</a></dd>
+                </dl>
+            </details>
+        </header>
         <h2 class="title">Killer Sudoku Combo</h2>
         <div class="main-app">
             <button on:click=add_counter class="btn add-block">"Add block"</button>
