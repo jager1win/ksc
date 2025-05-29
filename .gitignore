@@ -3,3 +3,4 @@
 /Cargo.lock
 .vscode
 PROJECT.MD
+src-tauri/gen/android/keystore.properties

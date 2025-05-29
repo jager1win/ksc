@@ -11,14 +11,13 @@
     "removeUnusedCommands": true
   },
   "app": {
-    "withGlobalTauri": true,
     "windows": [
       {
         "title": "KSC",
         "width": 320,
         "height": 400,
-        "fullscreen": false,
-        "resizable": true
+        "resizable": true,
+        "fullscreen": true
       }
     ],
     "security": {
@@ -27,9 +26,9 @@
   },
   "bundle": {
     "active": true,
-    "category": "Game",
-    "licenseFile": "../LICENSE",
-    "license": "MIT",
+    "copyright": "MIT License",
+    "shortDescription": "Killer Sudoku Combo",
+    "category": "Games",
     "icon": [
       "icons/icon.png",
       "icons/android/ldpi.png",
@@ -38,6 +37,9 @@
       "icons/android/xhdpi.png",
       "icons/android/xxhdpi.png",
       "icons/android/xxxhdpi.png"
-    ]
+    ],
+    "android": {
+      "minSdkVersion": 24
+    }
   }
 }
