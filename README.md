@@ -5,10 +5,10 @@
 Веб-версию со своего сайта https://jager.site/ksc на Leptos с помощью Tauri портировал в приложение. Это было очень легко, респект и уважение Tauri.
 
 <p align="center">
-  <img src="screenshots/android.png" width="20%" alt="Android screenshot 0">
-  <img src="screenshots/android1.png" width="20%" alt="Android screenshot 1">
-  <img src="screenshots/ubuntu.png" width="20%" alt="Ubuntu screenshot 0">
-  <img src="screenshots/ubuntu.png" width="20%" alt="Ubuntu screenshot 1">
+  <img src="public/android.png" width="20%" alt="Android screenshot 0">
+  <img src="public/android1.png" width="20%" alt="Android screenshot 1">
+  <img src="public/ubuntu.png" width="20%" alt="Ubuntu screenshot 0">
+  <img src="public/ubuntu1.png" width="20%" alt="Ubuntu screenshot 1">
 </p>
 
 ## Особенности
